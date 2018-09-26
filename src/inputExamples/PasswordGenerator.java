@@ -15,7 +15,7 @@ public class PasswordGenerator {
 		two = input.nextByte();
 		System.out.println("Type the third one-digit number wish to include.");
 		three = input.nextByte();
-		System.out.println("All Possible Combinations:\n" + one + two + three + "\n" + one + three + two + "\n" + two + one + three );
+		System.out.println("All Possible Combinations:\n" + one + two + three + "\n" + one + three + two + "\n" + two + one + three + "\n" + two + three + one + "\n" + three + one + two + "\n" + three + two + one );
 		input.close();
 	}
 
