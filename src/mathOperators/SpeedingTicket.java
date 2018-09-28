@@ -12,7 +12,7 @@ public class SpeedingTicket {
 		limit = input.nextInt();
 		System.out.println("What is the speed of the driver?");
 		driver = input.nextInt();
-		ticket = 55.0 + 40.0*(driver%limit);
+		ticket = 55.0 + 40.0*((driver-1.0)%limit);
 		System.out.println("Your speed was: " + driver);
 		System.out.println("The speed limit was: " + limit);
 		System.out.println("The speeding ticket costs $" + ticket);
