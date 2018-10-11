@@ -5,7 +5,11 @@ public class Numbers {
 
 	}
 
-	public void sayNumber(double num) {
+	public void sayNumber(int num) {
 		System.out.println(num);
+	}
+
+	public void sayNumberPlus2(int num) {
+		System.out.println(num + 2);
 	}
 }
