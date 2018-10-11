@@ -10,6 +10,12 @@ public class Numbers {
 	}
 
 	public void sayNumberPlus2(int num) {
-		System.out.println(num + 2);
+		int result = num + 2;
+		System.out.println(result);
+	}
+
+	public void saySum(int num1, int num2) {
+		int result = num1 + num2;
+		System.out.println(result);
 	}
 }

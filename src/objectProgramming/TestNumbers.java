@@ -7,6 +7,7 @@ public class TestNumbers {
 		Numbers bob = new Numbers();
 		bob.sayNumber(-9);
 		bob.sayNumberPlus2(5);
+		bob.saySum(13, -4);
 	}
 
 }
