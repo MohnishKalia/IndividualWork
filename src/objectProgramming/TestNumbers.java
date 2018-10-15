@@ -9,6 +9,8 @@ public class TestNumbers {
 		bob.sayNumberPlus2(5);
 		bob.saySum(13, -4);
 		bob.returnSquare(4.5);
+		bob.returnArea(4.3, 9.456);
+
 	}
 
 }
