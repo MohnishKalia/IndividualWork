@@ -30,4 +30,10 @@ public class Numbers {
 		System.out.println(result);
 		return result;
 	}
+
+	public int returnRoundUp(double num1) {
+		int result = (int) Math.ceil(num1);
+		System.out.println(result);
+		return result;
+	}
 }

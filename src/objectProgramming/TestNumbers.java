@@ -10,7 +10,7 @@ public class TestNumbers {
 		bob.saySum(13, -4);
 		bob.returnSquare(4.5);
 		bob.returnArea(4.3, 9.456);
-
+		bob.returnRoundUp(9.513);
 	}
 
 }
