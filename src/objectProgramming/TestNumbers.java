@@ -8,6 +8,7 @@ public class TestNumbers {
 		bob.sayNumber(-9);
 		bob.sayNumberPlus2(5);
 		bob.saySum(13, -4);
+		bob.returnSquare(4.5);
 	}
 
 }

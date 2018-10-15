@@ -18,4 +18,10 @@ public class Numbers {
 		int result = num1 + num2;
 		System.out.println(result);
 	}
+
+	public double returnSquare(double num1) {
+		double result = Math.pow(num1, 2);
+		System.out.println(result);
+		return result;
+	}
 }
