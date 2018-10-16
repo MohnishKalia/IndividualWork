@@ -18,9 +18,8 @@ public class TestHome {
 		double rate = input.nextDouble();
 		double volume = length * width * height;
 		bob.fill2(volume, rate);
-		double time = 0;
+		double time = bob.fill3(volume, rate);
 		System.out.println("It will take " + time + " hours");
-		bob.fill3(volume, rate);
 	}
 
 }
