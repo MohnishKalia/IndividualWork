@@ -11,9 +11,9 @@ public class TestGreeter {
 		System.out.println(age);
 		System.out.println("New age");
 		int xAge = input.nextInt();
-		int age = bob.setAge(xAge);
-		System.out.println(age);
-		bob.getAge();
+		bob.setAge(xAge);
+		System.out.println(bob.getAge());
+		input.close();
 	}
 
 }
