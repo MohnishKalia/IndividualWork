@@ -4,7 +4,11 @@ public class Circle {
 	private double radius;
 
 	public Circle() {
-		radius = -99.4;
+
+	}
+
+	public Circle(double xRadius) {
+		radius = xRadius;
 	}
 
 	public void setRadius(double xRadius) {

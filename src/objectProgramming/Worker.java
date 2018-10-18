@@ -5,8 +5,12 @@ public class Worker {
 	private double rate;
 
 	public Worker() {
-		hours = -9;
-		rate = -87.3;
+
+	}
+
+	public Worker(int xHours, double xRate) {
+		hours = xHours;
+		rate = xRate;
 	}
 
 	public int getHours() {
