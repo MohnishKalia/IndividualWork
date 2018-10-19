@@ -34,4 +34,12 @@ public class Rectangle {
 	public void changeWidth(double changeW) {
 		width = changeW * width;
 	}
+
+	public void setLength(double xLength) {
+		length = xLength;
+	}
+
+	public void setWidth(double xWidth) {
+		width = xWidth;
+	}
 }

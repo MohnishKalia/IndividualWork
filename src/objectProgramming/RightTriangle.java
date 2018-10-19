@@ -24,4 +24,12 @@ public class RightTriangle {
 	public double area() {
 		return 0.5 * base * height;
 	}
+
+	public void setBase(double xBase) {
+		base = xBase;
+	}
+
+	public void setHeight(double xHeight) {
+		height = xHeight;
+	}
 }
