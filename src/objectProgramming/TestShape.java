@@ -11,7 +11,7 @@ public class TestShape {
 		IsoTrapezoid freddy = new IsoTrapezoid();
 		Scanner input = new Scanner(System.in);
 
-		System.out.println("What is the 1) length, and 2) width of your rectangle?");
+		System.out.println("What is the 1) length and 2) width of your rectangle?");
 		bob.setLength(input.nextDouble());
 		bob.setWidth(input.nextDouble());
 		System.out.println("Area: " + bob.area() + " Perimeter: " + bob.perimeter());
