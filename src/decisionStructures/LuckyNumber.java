@@ -10,14 +10,13 @@ public class LuckyNumber {
 		int age = input.nextInt();
 		if (age >= 18) {
 			System.out.println("What is your height in inches?");
-			double lucky = 5 * input.nextDouble();
-			System.out.println("Your lucky number is" + lucky);
+			double lucky = 5.0 * input.nextDouble();
+			System.out.println("Your lucky number is " + lucky);
 		} else {
 			System.out.println("What is your weight in pounds?");
 			double lucky = input.nextDouble() / 2.0;
-			System.out.println("Your lucky number is" + lucky);
+			System.out.println("Your lucky number is " + lucky);
 		}
 		input.close();
 	}
-
 }
