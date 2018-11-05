@@ -15,14 +15,5 @@ public class FunctionGraph {
 			x[i] = Math.PI * i / n;
 			y[i] = Math.sin(4 * x[i]) + Math.sin(20 * x[i]);
 		}
-
-		// rescale the coordinate system
-		StdDraw.setXscale(0, Math.PI);
-		StdDraw.setYscale(-2.0, +2.0);
-
-		// plot the approximation to the function
-		for (int i = 0; i < n; i++) {
-			StdDraw.line(x[i], y[i], x[i + 1], y[i + 1]);
-		}
 	}
 }
