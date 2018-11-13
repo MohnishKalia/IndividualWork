@@ -33,15 +33,18 @@ public class TestCircle {
 
 			case 1:
 				System.out.println(
-						"The circle with radius " + bob.returnRadius() + " had the greatest area of " + bob.area());
+						"The circle with radius " + bob.returnRadius() + " had the greatest circumference of "
+								+ bob.circumference());
 				break;
 			case 2:
 				System.out.println(
-						"The circle with radius " + todd.returnRadius() + " had the greatest area of " + todd.area());
+						"The circle with radius " + todd.returnRadius() + " had the greatest circumference of "
+								+ todd.circumference());
 				break;
 			case 3:
 				System.out.println(
-						"The circle with radius " + jen.returnRadius() + " had the greatest area of " + jen.area());
+						"The circle with radius " + jen.returnRadius() + " had the greatest circumference of "
+								+ jen.circumference());
 				break;
 			}
 			System.out.println("Would you like to keep going? true/false");
