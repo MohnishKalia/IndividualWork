@@ -10,12 +10,16 @@ public class SumOfOdd {
 		System.out.println("What is your positive integer?");
 		int uBound = input.nextInt();
 		if (uBound % 2 == 0) { // even
-			for (int j = uBound / 2; j > 0; j--) {
+			for (int j = uBound - 1; j > 0; j -= 2) {
+				sum += j;
 			}
 		} else { // odd
-
+			for (int j = uBound - 2; j > 0; j -= 2) {
+				sum += j;
+			}
 		}
 		System.out.println(sum);
+		input.close();
 	}
 
 }
