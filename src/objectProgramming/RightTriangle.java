@@ -32,4 +32,12 @@ public class RightTriangle {
 	public void setHeight(double xHeight) {
 		height = xHeight;
 	}
+
+	public double getBase() {
+		return base;
+	}
+
+	public double getHeight() {
+		return height;
+	}
 }
