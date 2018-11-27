@@ -12,7 +12,7 @@ public class FlipACoin {
 		int heads = 0;
 		double maxHeads = 0;
 		double minHeads = 100;
-		for (int j = 0; j < 1000000; j++) {
+		for (int j = 0; j < 100; j++) {
 			for (int i = 0; i < 100000; i++) {
 				int random = min + gen.nextInt(max - min + 1);
 				if (random == 1) {
