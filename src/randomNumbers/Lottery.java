@@ -13,7 +13,7 @@ public class Lottery {
 		System.out.println("What is the maximum of the range?");
 		int max = input.nextInt();
 		if (max < min) {
-			max = min + 1;
+			max = min + 500;
 		}
 		System.out.println("First winning number");
 		int tar1 = input.nextInt();
