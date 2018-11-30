@@ -14,7 +14,7 @@ public class SentenceDeconstruction {
 		System.out.println(sentence1.charAt(2));
 		System.out.println(sentence1);
 		System.out.println(sentence1.contains("co"));
-		System.out.println(sentence1.compareTo(sentence2));
+		System.out.println(sentence1.compareToIgnoreCase(sentence2));
 		input.close();
 	}
 
