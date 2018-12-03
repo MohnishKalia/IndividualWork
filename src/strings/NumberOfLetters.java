@@ -9,12 +9,16 @@ public class NumberOfLetters {
 		Scanner input = new Scanner(System.in);
 		System.out.println("What is your sentence?");
 		String sen = input.nextLine();
+		// asks for sentence
 		String senC = sen.toLowerCase();
+		// converts sentence into lowercase for easier ASCII comparison
 		int vowel = 0;
 		int cons = 0;
 		int per = 0;
+		// counting variables initialized
 		for (int i = 0; i < senC.length(); i++) {
 			switch (senC.charAt(i)) {
+			// compares every character of the sentence for value in switch
 			case 'a':
 				vowel++;
 				break;
@@ -42,8 +46,19 @@ public class NumberOfLetters {
 			case '?':
 				per++;
 				break;
+			case ',':
+				per++;
+				break;
+			case ';':
+				per++;
+				break;
+			case ':':
+				per++;
+				break;
 			default:
 				if (senC.charAt(i) >= 97 && senC.charAt(i) <= 122) {
+					// if not any punctuation or vowel, and in between ASCII lowercase letters,
+					// increment
 					cons++;
 				}
 				break;
