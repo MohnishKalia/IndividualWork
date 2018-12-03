@@ -30,6 +30,9 @@ public class NumberOfLetters {
 			case 'u':
 				vowel++;
 				break;
+			case 'y':
+				vowel++;
+				break;
 			case '.':
 				per++;
 				break;
