@@ -18,7 +18,7 @@ public class Essay {
 	public void setName(String nameX) {
 		name = nameX;
 		nameF = name.substring(0, name.indexOf(" "));
-		nameL = name.substring(name.indexOf(" "));
+		nameL = name.substring(name.indexOf(" ") + 1);
 	}
 
 	public void setText(String textX) {
