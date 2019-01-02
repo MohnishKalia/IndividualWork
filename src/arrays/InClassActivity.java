@@ -19,6 +19,7 @@ public class InClassActivity {
 			}
 		}
 		System.out.println("Total Array Sum: " + sum);
+		input.close();
 	}
 
 }
