@@ -18,11 +18,6 @@ public class TestCircle {
 
 		System.out.println("Filler, set radius multiple");
 		double rate = input.nextDouble();
-
-		bob.changeRadius(rate);
-		System.out.println(bob.returnRadius());
-		System.out.println(bob.circumference());
-		System.out.println(bob.area());
 		input.close();
 	}
 

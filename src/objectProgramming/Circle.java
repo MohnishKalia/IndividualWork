@@ -4,15 +4,21 @@ public class Circle {
 	private double radius;
 
 	public Circle() {
-
+		radius = 10;
 	}
 
 	public Circle(double xRadius) {
-		radius = xRadius;
+		if (xRadius > 0)
+			radius = xRadius;
+		else
+			radius = 1;
 	}
 
 	public void setRadius(double xRadius) {
-		radius = xRadius;
+		if (xRadius > 0)
+			radius = xRadius;
+		else
+			radius = 1;
 	}
 
 	public double returnRadius() {
@@ -20,16 +26,10 @@ public class Circle {
 	}
 
 	public double circumference() {
-		double circumference = 2 * radius * Math.PI;
-		return circumference;
+		return 2 * radius * Math.PI;
 	}
 
 	public double area() {
-		double area = Math.PI * radius * radius;
-		return area;
-	}
-
-	public void changeRadius(double change) {
-		radius = change * radius;
+		return Math.PI * radius * radius;
 	}
 }
