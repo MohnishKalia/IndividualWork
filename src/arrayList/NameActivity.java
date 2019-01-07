@@ -13,6 +13,9 @@ public class NameActivity {
 		names.add(1, "Billy");
 		System.out.println("What is your name?");
 		names.add(input.nextLine());
+		for (int i = 0; i < names.size(); i++) {
+			System.out.println(names.get(i));
+		}
 		input.close();
 	}
 
