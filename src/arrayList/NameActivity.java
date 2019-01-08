@@ -10,9 +10,14 @@ public class NameActivity {
 		ArrayList<String> names = new ArrayList<String>();
 		names.add("Bob");
 		names.add("Jane");
-		names.add(1, "Billy");
+		names.add(0, "Billy");
 		System.out.println("What is your name?");
 		names.add(input.nextLine());
+		if (names.size() > 1) {
+		String first = names.remove(0);
+		String last = names.remove(names.size() - 1);
+		System.out.println("Outcast Names D: " + first + last);
+		}
 		for (int i = 0; i < names.size(); i++) {
 			System.out.println(names.get(i));
 		}

@@ -3,9 +3,9 @@ package objectProgramming;
 public class Friend {
 	private String name;
 	private int age;
-public Friend()
-	{
-		
+
+	public Friend() {
+
 	}
 
 	public Friend(String xName, int xAge) {
