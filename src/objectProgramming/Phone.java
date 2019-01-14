@@ -4,7 +4,7 @@ public class Phone {
 	private long phoneNumber;
 	private long speedDial;
 	private long lastNumberCalled;
-	final private long EMERGENCYNUMBER = 911;
+	private long EMERGENCYNUMBER = 911;
 	private long calls;
 	private long minutes;
 

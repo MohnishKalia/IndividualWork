@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Temperature4D",
+            "request": "launch",
+            "mainClass": "arrays.Temperature4D",
+            "projectName": "IndividualWork"
+        }
+    ]
+}
