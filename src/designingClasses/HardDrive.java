@@ -33,6 +33,7 @@ public class HardDrive {
 			freeSpace -= xSize;
 		} else {
 			fileSpace.add(freeSpace);
+			freeSpace = 0;
 		}
 	}
 
@@ -45,8 +46,8 @@ public class HardDrive {
 	public void deleteFile(int index) {
 		try {
 			freeSpace += fileSpace.remove(index);
-		} catch (Exception ArrayIndexOutOfBoundsException) {
-
+		} catch (ArrayIndexOutOfBoundsException e) {
+			e.printStackTrace();
 		}
 	}
 
