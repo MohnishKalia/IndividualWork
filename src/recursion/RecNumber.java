@@ -1,45 +1,61 @@
 package recursion;
 
 public class RecNumber {
-	private int sum = 0;
-	private int sumO = 0;
 
 	public RecNumber() {
 	}
 
 	public int sumTheNumbers(int num) {
 		if (num > 0) {
-			sum += num;
-			sumTheNumbers(num - 1);
+			return num + sumTheNumbers(num - 1);
 		}
-		return sum;
+		return 0;
 	}
 
 	public int sumTheOdds(int oddNum) {
 		if (oddNum > 0 && oddNum % 2 == 1) {
-			sumO += oddNum;
-			sumTheOdds(oddNum - 2);
+			return oddNum + sumTheOdds(oddNum - 2);
 		}
-		return sumO;
+		return 0;
 	}
 
 	public int reverseOrder(int num) {
-		return 4;
+		// 123456 into 654321
+		// Each time take end result and multiply the current result by 10
+		if (num > 0) {
+
+		}
+		return 0;
 	}
 
-	public String twoNumberSum(int num1, int num2) {
-		return "fun";
+	public int twoNumberSum(int num1, int num2) {
+		return 4;
 	}
 
 	public int productOfDigits(int num) {
-		return 3;
+		if (num > 0) {
+			return num % 10 * productOfDigits(num / 10);
+		}
+		return 1;
 	}
 
 	public int numOfZeros(int num) {
-		return 6;
+		return 7;
 	}
 
-	public int fibonacci(int index) {
-		return 4;
+	public int fibonacci(int n) {
+		if (n == 0)
+			return 0;
+		else if (n == 1)
+			return 1;
+		else
+			return fibonacci(n - 1) + fibonacci(n - 2);
+	}
+
+	public void printHello(int howMany) {
+		if (howMany > 1) {
+			printHello(howMany - 1);
+		}
+		System.out.println("Hello");
 	}
 }
