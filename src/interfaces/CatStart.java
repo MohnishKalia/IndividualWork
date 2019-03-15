@@ -38,7 +38,7 @@ public class CatStart implements Comparable<CatStart> {
 		sleep++;
 	}
 
-	public void sleepless() {
+	public void sleepLess() {
 		sleep--;
 	}
 

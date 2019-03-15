@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - InClassActivity",
+            "request": "launch",
+            "mainClass": "arrays.InClassActivity",
+            "projectName": "IndividualWork"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TestGreeter",
             "request": "launch",
             "mainClass": "designingClasses.TestGreeter",
