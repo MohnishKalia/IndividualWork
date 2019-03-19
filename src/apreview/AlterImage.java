@@ -37,13 +37,19 @@ public class AlterImage {
 		if (horiz) {
 			for (int i = 0; i < image.length / 2; i++) {
 				for (int j = 0; j < image[0].length; j++) {
-					image[i][j] = image[image.length - 1 - i][image[0].length - 1 - j];
+					Pixel beg = image[i][j];
+					Pixel end = image[image.length - 1 - i][image[0].length - 1 - j];
+					image[i][j] = end;
+					image[image.length - 1 - i][image[0].length - 1 - j] = beg;
 				}
 			}
 		} else {
 			for (int i = 0; i < image.length; i++) {
 				for (int j = 0; j < image[0].length / 2; j++) {
-					image[i][j] = image[image.length - 1 - i][image[0].length - 1 - j];
+					Pixel beg = image[i][j];
+					Pixel end = image[image.length - 1 - i][image[0].length - 1 - j];
+					image[i][j] = end;
+					image[image.length - 1 - i][image[0].length - 1 - j] = beg;
 				}
 			}
 		}
