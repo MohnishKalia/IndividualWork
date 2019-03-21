@@ -18,12 +18,10 @@ public class Trout implements Fish {
 	}
 
 	public double getLength() {
-		// TODO Auto-generated method stub
 		return length;
 	}
 
 	public double getAge() {
-		// TODO Auto-generated method stub
 		return age;
 	}
 
