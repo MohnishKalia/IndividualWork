@@ -35,7 +35,12 @@ public class TestPerson {
 			people.add(new Teacher());
 		}
 		for (Person temp : people) {
+			if (temp instanceof Teacher)
+				((Teacher) temp).payMe();
+			if (temp instanceof Student) {
+				((Student) temp).outSick();
 			System.out.println(temp.getName());
+			}
 		}
 	}
 
