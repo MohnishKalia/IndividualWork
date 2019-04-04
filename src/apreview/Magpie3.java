@@ -31,23 +31,23 @@ public class Magpie3
 	public String getResponse(String statement)
 	{
 		String response = "";
-		if (statement.length() == 0)
-		{
+		if (statement.length() == 0) {
 			response = "Say something, please.";
 		}
-		else if (findKeyword(statement, "no") >= 0)
-		{
+		else if (findKeyword(statement, "no") >= 0) {
 			response = "Why so negative?";
 		}
 		else if (findKeyword(statement, "mother") >= 0
 				|| findKeyword(statement, "father") >= 0
 				|| findKeyword(statement, "sister") >= 0
-				|| findKeyword(statement, "brother") >= 0)
-		{
+				|| findKeyword(statement, "brother") >= 0) {
 			response = "Tell me more about your family.";
 		}
-		else
-		{
+		else if (findKeyword(statement, "dog") >= 0 || findKeyword(statement, "cat") >= 0) {
+			response = "Tell me more about your pets";
+		} else if (findKeyword(statement, "tennis") >= 0) {
+			response = "Neato";
+		} else {
 			response = getRandomResponse();
 		}
 		return response;

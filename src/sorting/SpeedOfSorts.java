@@ -21,7 +21,7 @@ public class SpeedOfSorts {
 		}
 		int[] sel = nums.clone();
 		int[] ins = nums.clone();
-		Number[] mer = Sort.numberArrayConverter(nums);
+		// Number[] mer = Sort.numberArrayConverter(nums);
 
 
 		start = System.currentTimeMillis();
@@ -35,7 +35,7 @@ public class SpeedOfSorts {
 		System.out.println("The number of milliseconds for the insertion sort was: " + (start - stop));
 
 		start = System.currentTimeMillis();
-		Sort.mergesortAscending(mer, 0, mer.length - 1);
+		// Sort.mergesortAscending(mer, 0, mer.length - 1);
 		stop = System.currentTimeMillis();
 		System.out.println("The number of milliseconds for the merge sort was: " + (start - stop));
 	}
