@@ -146,11 +146,11 @@ public class Magpie4
 			statement = statement.substring(0, statement.length() - 1);
 		}
 
-		int psnOfSmells = findKeyword(statement, "smells", 0);
-		int psnOfBad = findKeyword(statement, "bad", psnOfSmells + 6);
+		int psnOfFind = findKeyword(statement, "smells", 0);
+		int psnOfAnywhere = findKeyword(statement, "bad", psnOfFind + 4);
 
-		String restOfStatement = statement.substring(psnOfSmells + 3, psnOfBad).trim();
-		return "I agree. " + restOfStatement + " does smell bad";
+		String restOfStatement = statement.substring(psnOfFind + 4, psnOfAnywhere).trim();
+		return "I buried your " + restOfStatement + " in the backyard.";
 	}
 	
 	/**
