@@ -1,28 +1,32 @@
 package apreview;
-
 public class Customer {
-	private String name;
-	private String city;
-	private String state;
+    private String name;
+    private String city;
+    private String state;
 
-	public Customer(String xName, String xCity, String xState) {
-		name = xName;
-		city = xCity;
-		state = xState;
-	}
+    public Customer(String xName, String xCity, String xState) {
+        name = xName;
+        city = xCity;
+        state = xState;
+    }
 
-	/** ©return the name of this customer */
-	public String getName() {
-		return name;
-	}
+    /** Â©return the name of this customer */
+    public String getName() {
+        return name;
+    }
 
-	/** ©return the city of this customer */
-	public String getCity() {
-		return city;
-	}
+    /** Â©return the city of this customer */
+    public String getCity() {
+        return city;
+    }
 
-	/** ©return the state of this customer */
-	public String getState() {
-		return state;
-	}
+    /** Â©return the state of this customer */
+    public String getState() {
+        return state;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer [city=" + city + ", name=" + name + ", state=" + state + "]";
+    }
 }
