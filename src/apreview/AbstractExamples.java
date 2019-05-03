@@ -1,4 +1,5 @@
 package apreview;
+
 abstract class Phone implements Comparable<Phone> {
     protected int phoneNum;
     // CONSTRUCTORS
@@ -24,10 +25,9 @@ class Galaxy extends Phone {
     public void message() {
         System.out.println("Using messenger app!");
     }
+
     public static void main(String[] args) {
-        //Phone bob = new Phone(); //Cannot instantiate the type Phone
-        //Phone sam = new Galaxy(); //Compiles
+        // Phone bob = new Phone(); //Cannot instantiate the type Phone
+        // Phone sam = new Galaxy(); //Compiles
     }
 }
-
-
