@@ -15,4 +15,16 @@ public class Parallelogram extends Quadrilateral {
 	public double area() {
 		return super.getS2() * height;
 	}
+
+	public String toString() {
+		return "Parallelogram: height = " + height + super.toString();
+	}
+
+	public boolean equals(Object other) {
+		return this.toString().equals(other.toString());
+	}
+
+	public Object clone() {
+		return new Parallelogram(super.getS1(), super.getS2(), height);
+	}
 }
