@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestFish",
+            "request": "launch",
+            "mainClass": "interfaces.TestFish",
+            "projectName": "IndividualWork"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InClassActivity",
+            "request": "launch",
+            "mainClass": "arrays.InClassActivity",
+            "projectName": "IndividualWork"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestGreeter",
+            "request": "launch",
+            "mainClass": "designingClasses.TestGreeter",
+            "projectName": "IndividualWork"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Temperature4D",
+            "request": "launch",
+            "mainClass": "arrays.Temperature4D",
+            "projectName": "IndividualWork"
+        }
+    ]
+}
