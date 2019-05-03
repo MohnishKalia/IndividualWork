@@ -32,7 +32,7 @@ public class Student implements Person {
 		return name;
 	}
 
-	public int getAabsent() {
+	public int getAbsent() {
 		return absent;
 	}
 
