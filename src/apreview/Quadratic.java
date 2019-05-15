@@ -1,4 +1,5 @@
 package apreview;
+
 import java.util.ArrayList;
 
 public class Quadratic implements Polynomial {
@@ -27,13 +28,13 @@ public class Quadratic implements Polynomial {
     }
 
     public String getName() {
-        String termC = switch (eq.size()) {
+        /*String termC = switch (eq.size()) {
         case 1 -> "Monomial";
         case 2 -> "Binomial";
         case 3 -> "Trinomial";
         default -> "Polynomial";
-        };
-        return "Quadratic " + termC;
+        };*/
+        return "Quadratic "/* + termC*/;
     }
 
     public int getNumTerms() {
@@ -57,5 +58,4 @@ public class Quadratic implements Polynomial {
         roots[1] = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
         return roots;
     }
-
 }
