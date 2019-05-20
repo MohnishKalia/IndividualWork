@@ -2,6 +2,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TestBall",
+            "request": "launch",
+            "mainClass": "inheritance.TestBall",
+            "projectName": "IndividualWork"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestAnimal",
+            "request": "launch",
+            "mainClass": "interfaces.TestAnimal",
+            "projectName": "IndividualWork"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestWOW",
+            "request": "launch",
+            "mainClass": "inheritance.TestWOW",
+            "projectName": "IndividualWork"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Shuffler",
+            "request": "launch",
+            "mainClass": "apreview.Shuffler",
+            "projectName": "IndividualWork"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DeckTester",
+            "request": "launch",
+            "mainClass": "apreview.DeckTester",
+            "projectName": "IndividualWork"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CardTester",
+            "request": "launch",
+            "mainClass": "apreview.CardTester",
+            "projectName": "IndividualWork"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Testing",
+            "request": "launch",
+            "mainClass": "apreview.Testing",
+            "projectName": "IndividualWork"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Quadratic",
+            "request": "launch",
+            "mainClass": "apreview.Quadratic",
+            "projectName": "IndividualWork"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TestFish",
             "request": "launch",
             "mainClass": "interfaces.TestFish",

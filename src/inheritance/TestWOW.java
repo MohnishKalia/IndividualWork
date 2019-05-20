@@ -14,6 +14,7 @@ public class TestWOW {
 			for (int i = 0; i < 14; i++)
 				temp.move();
 			System.out.println(temp.stats());
+			System.out.println(((Object) temp).toString());
 		}
 	}
 
