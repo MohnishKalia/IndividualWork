@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TestBall",
+            "request": "launch",
+            "mainClass": "inheritance.TestBall",
+            "projectName": "IndividualWork"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestAnimal",
+            "request": "launch",
+            "mainClass": "interfaces.TestAnimal",
+            "projectName": "IndividualWork"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestWOW",
+            "request": "launch",
+            "mainClass": "inheritance.TestWOW",
+            "projectName": "IndividualWork"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Shuffler",
             "request": "launch",
             "mainClass": "apreview.Shuffler",
